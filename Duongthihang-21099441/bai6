@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Symmetric HTML</title>
+<style>
+    body {
+        background-image: url('https://th.bing.com/th/id/R.b8bf2005962982abdbfa014d6ece47c7?rik=MF7q%2b9mNkJ4tJA&riu=http%3a%2f%2fwallpapercave.com%2fwp%2flKlqTGz.jpg&ehk=r4xBFIVuDcjW8AzWPd76gmXQ2DOIqHk9A58DGgsVQyY%3d&risl=&pid=ImgRaw&r=0');
+        backeground-size: cover;
+        background-position: center;
+        margin: 0; 
+        padding: 0;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin: auto; 
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        width: 190%;
+        margin-bottom: 20px;
+    }
+
+    .letter {
+        flex: 1;
+        font-size: 36px;
+        color: yellow;
+    }
+
+    .number {
+      flex: 1;
+        font-size: 36px;
+        color: white; 
+    }
+
+    .row span:not(:last-child) {
+        margin-right: 45px; 
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <span class="letter">🎓</span>
+        <span class="letter">👩🏼‍💻</span>
+        <span class="letter">💡</span>
+        <span class="letter">🌎</span>
+    </div>
+    <div class="row span 2">
+        <span class="number">20000</span>
+        <span class="number">92%</span>
+        <span class="number">586</span>
+        <span class="number">18</span>
+    </div>
+    <div class="row">
+        <span class="letter">Sinh viên ứng tuyển</span>
+        <span class="letter">Sinh viên hoàn thành chương trình học</span>
+        <span class="letter">Bài báo khoa học</span>
+        <span class="letter">Giải thưởng, học bổng quốc tế</span>
+    </div>
+</div>
+</body>
+</html>

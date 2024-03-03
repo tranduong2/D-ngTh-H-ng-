@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Gửi lời mời tham gia sự kiện</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .large-input {
+            font-size: 18px;
+            padding: 10px;
+            width: 70%;
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+
+        img {
+            width: 80px;
+            height: 60px;
+            margin-bottom: 20px;
+        }
+
+        h1, h {
+            margin: 20px auto;
+        }
+
+        input {
+            font-size: 16px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://png.pngtree.com/png-vector/20190316/ourlarge/pngtree-love-letter-icon-design-template-vector-isolated-png-image_856595.jpg" alt="Logo" />
+
+        <h1>Gửi lời mời tham gia sự kiện</h1>
+
+        <h>Hãy nhập e-mail người mà bạn muốn gửi lời mời.</h>
+
+        <input type="text" class="large-input" placeholder="Enter E-mail">
+
+        <button>GỬI LỜI MỜI</button>
+    </div>
+</body>
+</html>

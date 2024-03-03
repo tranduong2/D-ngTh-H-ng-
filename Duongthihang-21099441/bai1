@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  
+    <title>Công ty cổ phần May Việt Tiến</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+       
+        .brand-name {
+            font-size: 25px;
+         
+        }
+        .highlight {
+            color: #007bff; 
+            font-weight: bold; 
+        }
+        .product-box {
+            display: flex;
+            justify-content: center; /* Canh giữa các ô */
+            gap: 50px; /* Khoảng cách giữa các ô */
+            margin-top: 20px;
+            color: #f2e9e4;
+            width: 100%; 
+        }
+        .product {
+            width: 200px; 
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            cursor: pointer;
+            color: #EEEEEE;
+            background-color: #000000; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://cdn.glitch.global/54d95c73-f79d-4ae5-8db2-d18be45e0a1f/15385835_LOGO-VIETTIEN-900X900.png?v=1709196590631" alt="Logo của bạn" class="logo">
+        <h1 class="brand-name">Công ty cổ phần May <span class="highlight">Việt Tiến</span></h1>
+      <p>Chuyên cung cấp các loại trang phục công sở Nam, Nữ</p>
+    </header>
+    <main>
+  
+        <div class="product-box">
+            <div class="product" onclick="redirectToProductPage('male')">
+                <p>Sản phẩm Nam 👕 </p>
+            </div>
+            <div class="product" onclick="redirectToProductPage('female')">
+                <p>Sản phẩm Nữ 👚 </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head> 
+    <title> Hãy cùng khám phá những lợi ích sức khỏe tuyệt vời của trà gừng </title>
+    <h1>
+     Hãy cùng khám phá những lợi ích sức khỏe tuyệt vời của trà gừng
+    </h1>
+    <h2>
+      <img src="https://cdn.glitch.global/8a72541d-b274-4e2b-ae5f-807d001666de/20221114_tra-gung-2.jpg?v=1709382953857" 
+         width="550" height="350">
+    </h2>
+    <h3>
+      Uống trà gừng hàng ngày là cách tuyệt vời để bạn chăm sóc và bảo vệ sức khỏe khỏi các bệnh tật.
+    </h3>
+    <h>
+      Trà gừng cay và nóng, vì vậy mà nó là loại thức uống tuyệt vời trong ngày lanh thay cho cà-phê. Tuy nhiên, trà gừng còn hơn cả là một loại thức uống bình thường vì nó có rất nhiều tác dụng với sức khỏe. Hãy cùng khám phả những lợi ích sức khỏe tuyệt với của trà gừng.
+    </h>
+    <ul type="Square">
+    <h>
+     Đẩy lùi cảm giác buồn nôn.
+    </h>
+    </ul>
+     <ul type="Square">
+    <h>
+      Hỗ trợ hệ thống tiêu hóa.
+    </h>
+    </ul>
+    <ul type="Square">
+    <h>
+      Chiến đấu với tình trạng chuột rút 
+    </h>
+    </ul>
+    <ul type="Square">
+    <h>
+      Chữa trị bệnh cảm lạnh thông thường
+    </h>
+    </ul>
+    <ul type="Square">
+    <h>
+      Điều trị chứng đau nửa đầu.
+    </h>
+    </ul>
+     <ul type="Square">
+    <h>
+      Chữa bệnh hỏi miệng. 
+    </h>
+    </ul>
+     <ul type="Square">
+    <h>
+     Giảm đau và Chống viêm nhiễm.
+    </h>
+    </ul>
+   <button style="background-color: lightblue;">Đọc Thêm....</button>
+  </head></html>

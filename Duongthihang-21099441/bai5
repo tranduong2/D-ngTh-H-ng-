@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/R.ae377f2cadad40a568c771ef4154a6f8?rik=e8t93WW4Hyk6FQ&riu=http%3a%2f%2fcaphenguyenchat.vn%2fwp-content%2fuploads%2f2017%2f11%2fca-phe-hat-rang-arabica-viet-nam-2.jpg&ehk=zxIG%2fhqIyL%2bVei86SntWA%2f7lXHuivlBRGCLTYprJmu8%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: white; 
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .center-content {
+            text-align: center;
+            margin-top: 50vh; 
+            transform: translateY(-50%);
+        }
+
+        .custom-button {
+            background-color: red;
+            color: white; 
+            padding: 20px 60px;
+            border: none;
+            border-radius: 0px;
+            cursor: pointer;
+        }
+    </style>
+    <title>bài 5</title>
+</head>
+<body>
+<div class="container center-content">
+    <h5>
+        <p style="font-size: 30px;">CƠ HỘI CHỈ ĐẾN VỚI BẠN MỘT LẦN DUY NHẤT.</p>
+    </h5>
+    <div>
+        <p style="font-size: 18px;">Bạn sẽ nhận được ưu đãi TỐT NHẤT nếu là thành viên của TRUNG NGUYÊN coffee.</p>
+    </div>
+    <div>
+        <button class="custom-button">ĐĂNG KÝ THAM GIA</button>
+    </div>
+</div>
+</body>
+</html>
